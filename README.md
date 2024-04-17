@@ -6,10 +6,10 @@ This platform utilizes blockchain technology to incentivize green energy product
 - Abin Raju
 
 ## Libraries used
-[frontend] (https://github.com/adnanxsalim/project-greenwatts/blob/main/client/package.json)
-[backend] (https://github.com/adnanxsalim/project-greenwatts/blob/main/web3/package.json)
+(frontend) [https://github.com/adnanxsalim/project-greenwatts/blob/main/client/package.json]
+(backend) [https://github.com/adnanxsalim/project-greenwatts/blob/main/web3/package.json]
 ## How to configure
 To be deployed on the web.
 
 ## How to Run
-go to: [project-greenwatts.vercel.app] (https://project-greenwatts.vercel.app)
+go to: (project-greenwatts.vercel.app) [https://project-greenwatts.vercel.app]
