@@ -8,7 +8,7 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GreenWatts",
-  description: "Rewarding Green Choices, Powering a Sustainable Future.",
+  description: "Incentivizing green energy production and usage using blockchain",
 };
 
 export default function RootLayout({
@@ -17,10 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ThirdwebProvider activeChain={Sepolia} clientId="68cc3d65b16fd822a5107acb47d4f7d8">
-        <html lang="en">
-            <body className={manrope.className}>{children}</body>
-        </html>
-    </ThirdwebProvider>
+    // <ThirdwebProvider activeChain={Sepolia} clientId="68cc3d65b16fd822a5107acb47d4f7d8">
+      <html lang="en">
+        <body className={manrope.className}>{children}</body>
+      </html>
+    // </ThirdwebProvider>
   );
-};
+}
